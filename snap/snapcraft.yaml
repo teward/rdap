@@ -1,0 +1,26 @@
+name: rdap # you probably want to 'snapcraft register <name>'
+base: core20 # the base snap is the execution environment for this snap
+version: '2022.09.08+git' # just for humans, typically '1.2+git' or '1.3.2'
+summary: RDAP command line client, written in Go
+description: |
+  OpenRDAP is a command line client for the Registration Data Access 
+  Protocol, written in Go. RDAP is a replacement for WHOIS, which provides 
+  domain name & IP address registration information in JSON format over 
+  HTTP.
+
+grade: devel # must be 'stable' to release into candidate/stable channels
+confinement: devmode # use 'strict' once you have the right plugs and slots
+
+parts:
+  rdap:
+    # See 'snapcraft plugins'
+    plugin: go
+    source-type: git
+    source: https://github.com/openrdap/rdap
+
+apps:
+  rdap:
+    command: bin/rdap
+    plugs:
+      - home
+      - network
