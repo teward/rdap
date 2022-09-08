@@ -1,5 +1,8 @@
 .*.un~
 
+# Snapcraft - don't include snaps
+snap/*.snap
+
 # Created by https://www.toptal.com/developers/gitignore/api/go
 # Edit at https://www.toptal.com/developers/gitignore?templates=go
 
