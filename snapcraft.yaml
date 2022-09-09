@@ -8,7 +8,7 @@ description: |
   domain name & IP address registration information in JSON format over 
   HTTP.
 
-grade: stable 
+grade: stable
 confinement: strict
 
 parts:
