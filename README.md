@@ -1,7 +1,7 @@
 <img src="https://www.openrdap.org/public/img/logo.png">
 
 OpenRDAP is an command line [RDAP](https://datatracker.ietf.org/wg/weirds/documents/) client implementation in Go.
-[![Build Status](https://travis-ci.org/openrdap/rdap.svg?branch=master)](https://travis-ci.org/openrdap/rdap)
+[![Build Status](https://travis-ci.org/teward/rdap.svg?branch=master)](https://travis-ci.org/teward/rdap)
 
 https://www.openrdap.org - homepage
 
@@ -36,7 +36,7 @@ This program uses Go. The Go compiler is available from https://golang.org/.
 
 To install:
 
-    go get -u github.com/openrdap/rdap/cmd/rdap
+    go get -u github.com/teward/rdap/cmd/rdap
 
 This will install the "rdap" binary in your $GOPATH/go/bin directory. Try running:
 
@@ -62,7 +62,7 @@ This will install the "rdap" binary in your $GOPATH/go/bin directory. Try runnin
 See https://www.openrdap.org/docs.
 
 ## Go docs
-[![godoc](https://godoc.org/github.com/openrdap/rdap?status.png)](https://godoc.org/github.com/openrdap/rdap)
+[![godoc](https://godoc.org/github.com/teward/rdap?status.png)](https://godoc.org/github.com/teward/rdap)
 
 ## Requires
 Go 1.7+

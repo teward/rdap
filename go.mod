@@ -1,4 +1,4 @@
-module github.com/openrdap/rdap
+module github.com/teward/rdap
 
 go 1.12
 
