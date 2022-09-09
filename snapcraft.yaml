@@ -13,10 +13,11 @@ confinement: strict
 
 parts:
   rdap:
-    # See 'snapcraft plugins'
     plugin: go
     source-type: git
     source: https://github.com/teward/rdap
+    build-snaps:
+      - go
 
 apps:
   rdap:
